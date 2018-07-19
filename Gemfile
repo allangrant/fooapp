@@ -43,3 +43,19 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'bootstrap', '~> 4.0.0'
+gem 'devise'
+gem 'devise_invitable'
+gem 'haml-rails'
+gem 'high_voltage'
+gem 'pg', '~> 0.18'
+
+group :development do
+  gem 'better_errors'
+  gem 'html2haml'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
